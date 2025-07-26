@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Assignment</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <h1 class="welcome">WELCOME TO MY BLOGGERS PAGE</h1>
+    <input type="text" id="search" onkeyup="search()" placeholder="Search My Teammates Blog ">
+    <div class="tab">
+        <img class="image" src="hari.jpeg">
+        <h1 class="name">Harisudhan K</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <a href="https://harisudhan01.github.io/computerscience/college.html"><button class="view">view</button></a>
+    </div>
+     <div class="tab">
+        <img class="image" src="mathesh.jpeg">
+        <h1 class="name">Mathesh</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+    <div class="tab">
+        <img class="image" src="vignesh.jpeg">
+        <h1 class="name">Vignesh</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+     <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Rajmohan</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <a href="https://rajmohan2007.blogspot.com/2025/07/rajmohan-student-bio-personal-details.html"><button class="view">view</button></a>
+    </div>
+     <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Subash</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Mageshwaran</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Venkateshwaran</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Thenmaran</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+     </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Thirumurugan</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+      </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">manikandan</h1>
+        <p class="title">Blog Title:gacakum website</p>
+        <button class="view">view</button>
+    </div>
+      </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Sakthivel</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+     </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Yusuf</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+     </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Gopinath</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+     </div>
+       <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Gunasheelan</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Perarasu</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Perarasu</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Praveen P</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Praveen R</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Jayapriyan</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Naveen</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+      <div class="tab">
+        <img class="image" src="male.png">
+        <h1 class="name">Dhilipsanjay</h1>
+        <p class="title">Blog Title:</p>
+        <button class="view">view</button>
+    </div>
+    <script>
+function search() {
+  let input = document.getElementById("search").value.toLowerCase();
+  let items = document.querySelectorAll(" .tab");
+
+  items.forEach(item => {
+    let text = item.textContent.toLowerCase();
+    if (text.includes(input)) {
+      item.style.display =""
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
+</script>
+</body>
+</html>

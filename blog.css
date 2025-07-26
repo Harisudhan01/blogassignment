@@ -1,0 +1,106 @@
+body{
+   background-image: url("back.png");
+   background-repeat: repeat;
+   
+
+}
+.title{
+    color:darkblue;
+}
+.welcome{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 20px blue;
+}
+input{
+    display:block;
+    width:500px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 400px;
+    font-size: 20px;
+    border-color: rgb(190, 6, 144);
+    box-shadow: 0 0 10px rgb(190, 6, 144);
+}
+.image{
+    display: flex;
+    margin-top:20px;
+    margin-left: 10px;
+    width:80px;
+    border-radius: 80px;
+    box-shadow: 0 0 20px rgb(4, 211, 248);
+}
+.name{
+    display: flex;
+    margin-top: -60px;
+    margin-left: 100px;
+    color:rgb(209, 10, 10);
+    text-shadow: 12 12 2px rgb(209, 10, 10);
+}
+.title{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.view{
+    width:80px;
+    height:30px;
+    border-radius: 20px;
+    margin-left: 150px;
+    background-color: rgb(252, 142, 64);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color:  chocolate;
+    transition-duration: 1s;
+    
+}
+.view:hover{
+    width:90px;
+    background-color: rgb(207, 90, 6);
+    cursor: pointer;
+}
+.tab{
+    display:inline-block;
+   background-color: rgb(255, 255, 255);
+    width:350px;
+    border-radius: 20px;
+    height:160px;
+    margin-left: 30px;
+    margin-right:50px;
+    margin-top: 20px;
+    box-shadow:0 0 20px black ;
+    transition-duration: 1s;
+    opacity: 90%;
+
+}
+.tab:hover{
+     width:370px;
+      height:180px;
+      opacity:1000%;
+      
+}
+@media(max-width:400px) {
+    .welcome{
+        font-size: 20px;
+
+    }
+    input{
+        margin-left: 30px;
+        height:30px;
+        width:300px;
+    }
+    .tab{
+        margin-left: 6px;
+        width:350px;
+        margin-right: 0px;
+    }
+    .tab:hover{
+        width:350px;
+
+    }
+    
+}
