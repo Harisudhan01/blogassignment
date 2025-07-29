@@ -35,14 +35,14 @@ input{
 }
 .name{
     display: flex;
-    margin-top: -60px;
-    margin-left: 100px;
+    margin-top: -80px;
+    margin-left: 120px;
     color:rgb(209, 10, 10);
     text-shadow: 12 12 2px rgb(209, 10, 10);
 }
 .title{
     display: flex;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: -20px;
     font-size: 20px;
 }
@@ -83,6 +83,17 @@ input{
       opacity:1000%;
       
 }
+@media(max-width:1115px){
+    .tab{
+          margin-left: 6px;
+        width:330px;
+        margin-right: 0px;
+    }
+    input{
+        margin-left: 300px;
+    }
+  
+}
 @media(max-width:400px) {
     .welcome{
         font-size: 20px;
@@ -102,5 +113,4 @@ input{
         width:350px;
 
     }
-    
 }
