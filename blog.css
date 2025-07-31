@@ -35,7 +35,7 @@ input{
 }
 .name{
     display: flex;
-    margin-top: -80px;
+    margin-top: -90px;
     margin-left: 120px;
     color:rgb(209, 10, 10);
     text-shadow: 12 12 2px rgb(209, 10, 10);
