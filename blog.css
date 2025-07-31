@@ -108,6 +108,7 @@ input{
         margin-left: 6px;
         width:350px;
         margin-right: 0px;
+        opacity: 1000%;
     }
     .tab:hover{
         width:350px;
